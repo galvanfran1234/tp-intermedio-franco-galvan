@@ -1,8 +1,14 @@
 # tp-intermedio-Franco-Galvan
 
-#Clonar Repositorio
-#Iniciar proyecto
-npm init -y
+## Pasos para iniciar el proyecto
+
+1. **Clonar Repositorio**
+   git clone: https://github.com/galvanfran1234/tp-intermedio-franco-galvan.git
+2. **Iniciar proyecto**
+
+```bash
+ npm init -y
+
 #instalar dependencias:
 npm install express
 npm install -D typescript ts-node-dev @types/node @types/express
@@ -15,7 +21,6 @@ npm install -D typescript ts-node-dev @types/node @types/express
 "outDir": "dist",
 "strict": true,
 "esModuleInterop": true
-}
 }
 #Configurar Archivo Package.json:"scripts":
 {
@@ -37,3 +42,4 @@ npm install jsonwebtoken
 npm install jsonwebtoken bcrypt express-validator express-rate-limit
 
 npm install -D @types/jsonwebtoken @types/bcrypt
+```
